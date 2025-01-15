@@ -1,6 +1,6 @@
 # Franchise Cost Prediction
 
-This project predicts the initial cost of a franchise based on annual frequency using a linear regression model.
+This project predicts the initial cost of a franchise based on annual cost using a linear regression model.
 Check the app: https://franchisecostpred.streamlit.app/
 
 ## How to Run
@@ -13,5 +13,5 @@ Check the app: https://franchisecostpred.streamlit.app/
 
 ## Example Dataset
 The example dataset (`slr12.csv`) contains two columns:
-- `FrqAnual`: Annual Frequency
+- `FrqAnual`: Annual Cost
 - `CusInic`: Initial Cost
