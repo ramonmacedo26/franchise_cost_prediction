@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 st.title("Initial Cost Prediction for Franchise")
 
 # Loading the dataset
-data = pd.read_csv("data/slr12.csv", sep=";")
+data = pd.read_csv("slr12.csv", sep=";")
 
 # Preparing the data
 X = data[['FrqAnual']]  # Annual Frequency
